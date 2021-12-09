@@ -1,17 +1,37 @@
 body {
-  background-image: url("/ClockBackground.jpg");
-  background-size: 45rem;
-  color: white;
+  background: linear-gradient(to right, #52ff58, #4349ff);
   text-align: center;
-  padding-top: 15%;
+  padding-top: 20%;
   font-size: 2rem;
 }
 
 h1 {
-  font-weight: normal;
+  color: #343434;
+  margin: 0;
+  padding: 0;
+}
+
+.clock_containers {
+  display: flex;
+  justify-content: space-evenly;
+  color: #343434;
+}
+
+label {
+  font-weight: bold;
+}
+
+select {
+  text-align: center;
+  font-weight: bold;
+  padding: 0.3rem;
+  margin: 0.3rem;
+  background-color: #343434;
+  color: white;
+  border-radius: 0.5rem;
 }
 
 #clockTime {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: bold;
 }
