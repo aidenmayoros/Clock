@@ -1,59 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="clock.css" />
-    <title>JavaScript Clock</title>
-  </head>
-  <body>
-    <div class="clock_containers">
-      <div class="first-time-container">
-        <label for="time-location">Pick a location</label>
-        <br />
-        <select
-          name="cities"
-          class="cities-select"
-          onchange="firstTimeHandler(this.value )"
-        >
-          <option value="">--Please choose an option--</option>
-          <option value="Tokyo">Tokyo, Japan</option>
-          <option value="NewYorkCity">New York City</option>
-          <option value="London">London</option>
-          <option value="Sydney/Australia">Sydney, Australia</option>
-          <option value="Vancouver">Vancouver, Canada</option>
-          <option value="Shanghai/China">Shanghai, China</option>
-          <option value="Monrovia">Monrovia, Liberia</option>
-        </select>
-        <div id="display-first-time"></div>
-      </div>
-      <div>
-        <h1>Current Time</h1>
-        <div id="clockTime"></div>
-      </div>
-      <div class="second-time-container">
-        <label for="time-location">Pick a location</label>
-        <br />
-        <select
-          name="cities"
-          class="cities-select"
-          onchange="secondTimeHandler(this.value )"
-        >
-          <option value="">--Please choose an option--</option>
-          <option value="Tokyo">Tokyo, Japan</option>
-          <option value="NewYorkCity">New York City</option>
-          <option value="London">London</option>
-          <option value="Sydney/Australia">Sydney, Australia</option>
-          <option value="Vancouver">Vancouver, Canada</option>
-          <option value="Shanghai/China">Shanghai, China</option>
-          <option value="Monrovia">Monrovia, Liberia</option>
-        </select>
-        <div id="display-second-time"></div>
-      </div>
-    </div>
-  </body>
-  <footer>
-    <script src="./clocks.js"></script>
-    <script src="./currentClock.js"></script>
-  </footer>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="clock.css" />
+		<title>JavaScript Clock</title>
+	</head>
+	<body>
+		<div class="clock_containers">
+			<div class="first-time-container">
+				<label for="time-location">Pick a location</label>
+				<br />
+				<select
+					name="cities"
+					class="cities-select"
+					onchange="firstTimeHandler(this.value)"
+				>
+					<option value="">--Please choose an option--</option>
+					<option value="Tokyo">Tokyo, Japan</option>
+					<option value="NewYorkCity">New York City</option>
+					<option value="London">London</option>
+					<option value="Sydney/Australia">Sydney, Australia</option>
+					<option value="Vancouver">Vancouver, Canada</option>
+					<option value="Shanghai/China">Shanghai, China</option>
+					<option value="Monrovia">Monrovia, Liberia</option>
+				</select>
+				<div id="display-first-time"></div>
+			</div>
+			<div>
+				<h1>Current Time</h1>
+				<div id="clockTime"></div>
+			</div>
+			<div class="second-time-container">
+				<label for="time-location">Pick a location</label>
+				<br />
+				<select
+					name="cities"
+					class="cities-select"
+					onchange="secondTimeHandler(this.value)"
+				>
+					<option value="">--Please choose an option--</option>
+					<option value="Tokyo">Tokyo, Japan</option>
+					<option value="NewYorkCity">New York City</option>
+					<option value="London">London</option>
+					<option value="Sydney/Australia">Sydney, Australia</option>
+					<option value="Vancouver">Vancouver, Canada</option>
+					<option value="Shanghai/China">Shanghai, China</option>
+					<option value="Monrovia">Monrovia, Liberia</option>
+				</select>
+				<div id="display-second-time"></div>
+			</div>
+		</div>
+	</body>
+	<footer>
+		<script src="./clocks.js"></script>
+		<script src="./currentClock.js"></script>
+	</footer>
 </html>
